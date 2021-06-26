@@ -92,6 +92,7 @@ Note: You can get `WARC_FILENAME` and `WARC_URL` from the Common Crawl [warc.pat
 
 ### Lambda function
 * [index.py](src/index.py): Submit a batch job when a task file is upload to a S3 bucket
+
 	Note: After you update the `index.py` file, compress this file into a `app.zip` file for cloudformation packaging.
 
 ### Create and update the Cloudformation template
