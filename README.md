@@ -1,5 +1,5 @@
 # warc-analytics-wac2021
-This project is to build a serverless data analytics application that processes the Common Crawl files stored in the AWS S3. This application is composed of AWS Lambda, AWS Batch, Container, and ArchiveSpark. This AWS solution can be deployed using a [CloudFormation stack](README.md#deploy-aws-batch-warc-using-cloudformation-stack) or [AWS CLI](README.md#deploy-aws-batch-warc-using-aws-cli-for-advanced-users). 
+This project is to build a serverless data analytics application that processes the Common Crawl files stored in the AWS S3. This application is composed of AWS Lambda, AWS Batch, Container, and ArchiveSpark. This AWS solution can be deployed using a [CloudFormation stack](README.md#deploy-warc-analytics-wac2021-using-cloudformation-stack) or [AWS CLI](README.md#deploy-warc-analytics-wac2021-using-aws-cli-for-advanced-users). 
 
 The source code is specific for this research work and you are free to update it for your work. See [Customization](README.md#customization) for details. 
 
