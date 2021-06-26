@@ -1,0 +1,7 @@
+{
+   "jobQueue":"WARCJobQueue",
+   "jobDefinition":"WARCJobDefinition:3",
+   "region":"us-east-1",
+   "WARC_FILENAME":"CC-MAIN-20200524210325-20200525000325-00041",
+   "WARC_URL":"1590347385193.5/warc/"
+}

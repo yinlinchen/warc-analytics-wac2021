@@ -1,0 +1,1 @@
+aws lambda invoke --function-name WARCBatchLambda --cli-binary-format raw-in-base64-out --payload '{"WARC_FILENAME":"'$1'","WARC_URL":"'$2'","Job_Queue":"WARCJobQueue","Job_Definition":"WARCJobDefinition:3"}' out --log-type Tail --query 'LogResult' --output text |  base64 -d
